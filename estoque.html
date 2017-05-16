@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Estoque</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="cabecalho">
+		<a href="#home">Home</a>
+		<a href="#produtos">Produtos</a>
+		<a>Estoque</a>
+		<a>Fale Conosco</a>
+	</div>
+	<div class="add">
+		<form>
+			<p>Código: </p><input type="number">
+			<p>Produto: </p><input type="text">
+			<p>Gênero: <select>
+								<option>Feminino</option>
+								<option>Masculino</option>
+								<option>Infantil</option>
+						</select></p>
+			<p>Preço: R$</p><input type="number" min="0.00" max="10000.00">
+			<p>Quantidade:</p> <input type="number">
+			<p>Tamanho: </p><select>
+								<option>P</option>
+								<option>M</option>
+								<option>G</option>
+								<option>GG</option>
+							</select><br>
+			<br><input type="button" value="Adicionar ao Estoque" class="button">
+		</form>
+	</div>
+	
+	<div class="tabelaprod">
+		<table>
+			<tr class="barraazul">
+				<td>Cód</td>
+				<td>Produto</td>
+				<td>Preço</td>
+				<td>Quantidade</td>
+				<td>Tamanho</td>
+			</tr>
+			<tr>
+				<td>123456</td>	
+				<td>Calça Jeans Skinny</td>
+				<td> R$ 189,90</td>
+				<td>10</td>
+				<td>P</td>
+			</tr>
+		</table>
+	</div>
+
+
+</body>
+</html>
